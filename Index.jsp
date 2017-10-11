@@ -17,7 +17,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				</button>
-				<a class="navbar-brand responsive" href="#"><img src="./images/sathi-white2.png" width="125" class="img-fluid"></a>
+				<a class="navbar-brand responsive" href="#"><img src="images/sathi-white2.png" width="125" class="img-fluid"></a>
 			</div>
 			<!-- <div class="collapse navbar-collapse" id="hnavbar">
 				<ul class="nav navbar-nav navbar-right">
@@ -33,10 +33,10 @@
 				<div class="collapse navbar-collapse" id="hnavbar" style="margin-top: 1%">
 					<form class="form-inline navbar-right" action="Login" method="POST">
 						<div class="form-group">
-							<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required/>
+							<input type="text" class="form-control" id="email" placeholder="Enter Username" name="txt_username" required/>
 						</div>
 						<div class="form-group">
-							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required/>
+							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name=txt_password" required/>
 						</div>
 						<div class="checkbox"></div>
 						<button type="submit" class="btn btn-default">Submit</button>
@@ -50,22 +50,22 @@
 					<div class="jumbotron" style="margin-top: 2%;background-color: white">
 						<!-- <h2>SATHI</h2>  -->
 						<p class="text-justify">Sathi helps you connect and share with the<br> people in your life.</p> 
-						<img src="./images/friend-index.jpg" class="img-responsive rounded" width="450"/>  
+						<img src="images/friend-index.jpg" class="img-responsive rounded" width="450"/>  
 
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<h1 class="text-center">Create your Account</h1>
-					<form action="Register" method="POST">
+					<form action="Signup" method="POST">
 						<div class="form-group">				
 							Full name
 							<input type="text" class="cols-xs-2 form-control" name="txt_fname" placeholder="Enter Full name" required/>
 							Username
 							<input type="text" class="cols-sm-3 form-control" name="txt_username" placeholder="Username" required/>
 							Email address
-							<input type="email" class="cols-xs-3 form-control" name="txt_emailddr" placeholder="Username@sathi.com" required/>
+							<input type="email" class="cols-xs-3 form-control" name="txt_emailaddr" placeholder="Username@sathi.com" required/>
 							Password
-							<input type="password" class="cols-xs-3 form-control" name="password" placeholder="Enter Password" required/>
+							<input type="password" class="cols-xs-3 form-control" name="txt_password" placeholder="Enter Password" required/>
 							Retype Password
 							<input type="password" class="cols-xs-3 form-control" name="confirmPassword"  placeholder="Re-enter Password" required/>
 							<p style="font-size: 13px;text-align: justify;"><br>By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy.</p>
