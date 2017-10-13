@@ -31,12 +31,12 @@
 					</ul>
 				</div> -->
 				<div class="collapse navbar-collapse" id="hnavbar" style="margin-top: 1%">
-					<form class="form-inline navbar-right" action="Login" method="POST">
+					<form class="form-inline navbar-right" action="login" method="POST">
 						<div class="form-group">
-							<input type="text" class="form-control" id="email" placeholder="Enter Username" name="txt_username" required/>
+							<input type="text" class="form-control" placeholder="Enter Username" name="txt_username" required/>
 						</div>
 						<div class="form-group">
-							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name=txt_password" required/>
+							<input type="password" class="form-control"  placeholder="Enter password" name="txt_password" required/>
 						</div>
 						<div class="checkbox"></div>
 						<button type="submit" class="btn btn-default">Submit</button>
@@ -55,28 +55,38 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<h1 class="text-center">Create your Account</h1>
+					<h2 class="text-center">Create your Account</h2>
 					<form action="Signup" method="POST">
 						<div class="form-group">				
-							Full name
+							<h4>Full name</h4>
 							<input type="text" class="cols-xs-2 form-control" name="txt_fname" placeholder="Enter Full name" required/>
-							Username
+						</div>
+						<div class="form-group">
+							<h4>Username</h4>
 							<input type="text" class="cols-sm-3 form-control" name="txt_username" placeholder="Username" required/>
-							Email address
+						</div>
+						<div class="form-group">
+							<h4>Email address</h4>
 							<input type="email" class="cols-xs-3 form-control" name="txt_emailaddr" placeholder="Username@sathi.com" required/>
-							Password
+						</div>
+						<div class="form-group">
+							<h4>Password</h4>
 							<input type="password" class="cols-xs-3 form-control" name="txt_password" placeholder="Enter Password" required/>
+						</div>
+						<!-- 	<div class="form-group">
 							Retype Password
 							<input type="password" class="cols-xs-3 form-control" name="confirmPassword"  placeholder="Re-enter Password" required/>
-							<p style="font-size: 13px;text-align: justify;"><br>By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy.</p>
+						</div> -->
+						<p style="font-size: 13px;text-align: justify;"><br>By clicking Create an account, you agree to our Terms and User Policy.</p>
+						<div class="form-group text-center">
+							<button type="submit" class="btn btn-primary center"><h4>Create Your Account</h4></button>
 						</div>
-						<button type="submit" class="btn btn-primary center">Create Your Account</button>
 					</form>
-					<p class="text-primary"><br><a href="#">Already have an account?</a></p>
+					<!-- <p class="text-primary"><br><a href="#">Already have an account?</a></p> -->
 				</div>
 			</div>
 
-			<div class="panel panel-inverse">
+			<div class="panel ">
 				<div class="panel-body text-center">Copyright &copy; 2017 SATHI.All right Reserved</div>
 			</div>
 		</body>
